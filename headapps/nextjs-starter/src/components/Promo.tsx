@@ -44,7 +44,8 @@ export const Default = (props: PromoProps): JSX.Element => {
               </div>
             </div>
             <div className="field-promolink">
-              <JssLink field={props.fields.PromoLink}
+              <JssLink
+                field={props.fields.PromoLink}
                 emptyFieldEditingComponent={() => <h3>Hello world!</h3>}
               />
             </div>
